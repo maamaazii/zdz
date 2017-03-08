@@ -272,7 +272,7 @@ Set a group's rules
 Lock a group's setting
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+pUnock a group's setting
 
 !settings [group|sgroup] [GroupID]
 Set settings for GroupID
@@ -282,7 +282,6 @@ Get a list of members in group/realm
 
 !who
 Get a file of members in group/realm
-
 !type
 Get group type
 
@@ -333,8 +332,7 @@ This command will send text to [group_id]
 
 *Only admins and sudo can use res, setowner, commands
 TeleBeyond V1.0
-Channel : @BeyondTeam
-Source : GitHub.com/BeyondTeam/Api-TeleBeyond
+Channel : @personal_pain
 ]],
     help_text = [[
 Commands list :
@@ -464,8 +462,7 @@ will return group ban list
 
 *Only owner can use res,setowner,promote,demote and log commands
 TeleBeyond V1.0
-Channel : @BeyondTeam
-Source : GitHub.com/BeyondTeam/Api-TeleBeyond
+Channel : @personal_pain
 ]],
 	help_text_super =[[
 SuperGroup Commands:
@@ -603,8 +600,7 @@ Returns group logs
 
 *Only owner can use res, setowner, promote, demote, and log commands
 TeleBeyond V1.0
-Channel : @BeyondTeam
-Source : GitHub.com/BeyondTeam/Api-TeleBeyond
+Channel : @personal_pain
 ]],
   }
   serialize_to_file(config, './data/config.lua')
